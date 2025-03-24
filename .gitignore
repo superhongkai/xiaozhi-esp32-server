@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.idea/
 *.py[cod]
 *$py.class
 
@@ -131,11 +132,26 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# music directory
+music/
+
 # pytype static type analyzer
 .pytype/
 
 # Cython debug symbols
 cython_debug/
 *.iml
-model.pt
 tmp
+.history
+.DS_Store
+main/xiaozhi-server/data
+main/xiaozhi-server/config/assets/wakeup_words.*
+main/manager-web/node_modules
+.config.yaml
+.secrets.yaml
+.private_config.yaml
+.env.development
+
+# model files
+main/xiaozhi-server/models/SenseVoiceSmall/model.pt
+main/xiaozhi-server/models/sherpa-onnx*
